@@ -7,5 +7,9 @@ public class Info {
 
 	}
 	
-	
+	public static void main(String[] args) {
+		
+		Info i=new Info();
+		i.studentName();
+	}
 }
