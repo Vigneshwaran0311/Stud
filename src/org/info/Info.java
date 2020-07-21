@@ -7,6 +7,7 @@ public class Info {
 
 	}
 	
+
 	public void mobno() {
 		System.out.println("8489102346");
 
@@ -17,4 +18,12 @@ public class Info {
 	}
 	
 	
+	public static void main(String[] args) {
+		
+		Info i=new Info();
+		i.studentName();
+		i.mobno();
+		i.place();
+	}
+
 }
